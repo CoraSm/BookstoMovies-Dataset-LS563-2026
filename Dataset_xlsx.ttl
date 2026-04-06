@@ -1,0 +1,798 @@
+@prefix : <http://localhost:3333/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix viaf: <https://viaf.org/en/viaf/> .
+
+wd:Q15079344  rdf:type  schema:Movie .
+
+wd:Q470601  rdf:type  schema:Person .
+
+wd:Q19517847  rdf:type  schema:Person .
+
+wd:Q14920425  rdf:type  schema:Movie .
+
+:HiddenFigures  schema:isBasedOn  wd:Q28464870 ;
+        schema:datePublished  "2017"^^xsd:gYear ;
+        schema:director       wd:Q19517847 ;
+        schema:name           wd:Q23755544 ;
+        rdf:type              schema:Movie .
+
+viaf:96987389  rdf:type  schema:Person .
+
+wd:Q56881169  rdf:type  schema:Movie .
+
+:TheGiver  schema:isBasedOn   wd:Q258953 ;
+        schema:datePublished  "2014"^^xsd:gYear ;
+        schema:director       wd:Q543563 ;
+        schema:name           wd:Q15079344 ;
+        rdf:type              schema:Movie .
+
+wd:Q623394  schema:author     viaf:97113511 ;
+        schema:datePublished  "1974"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+:TheShining  schema:isBasedOn  wd:Q470937 ;
+        schema:datePublished  "1980"^^xsd:gYear ;
+        schema:director       wd:Q2001 ;
+        schema:name           wd:Q186341 ;
+        rdf:type              schema:Movie .
+
+:DoloresClaiborne  schema:isBasedOn  wd:Q846175 ;
+        schema:datePublished  "1995"^^xsd:gYear ;
+        schema:director       wd:Q545573 ;
+        schema:name           wd:Q1236347 ;
+        rdf:type              schema:Movie .
+
+wd:Q189526  rdf:type  schema:Person .
+
+:Eclipse  schema:isBasedOn    wd:Q212473 ;
+        schema:datePublished  "2010"^^xsd:gYear ;
+        schema:director       wd:Q371455 ;
+        schema:name           wd:Q217010 ;
+        rdf:type              schema:Movie .
+
+:TheLastKingofScotland
+        schema:isBasedOn      wd:Q4592142 ;
+        schema:datePublished  "2006"^^xsd:gYear ;
+        schema:director       wd:Q1344373 ;
+        schema:name           wd:Q176826 ;
+        rdf:type              schema:Movie .
+
+wd:Q269670  rdf:type  schema:Person .
+
+wd:Q176826  rdf:type  schema:Movie .
+
+wd:Q319204  rdf:type  schema:Person .
+
+:TheMazeRunner  schema:isBasedOn  wd:Q4080576 ;
+        schema:datePublished  "2014"^^xsd:gYear ;
+        schema:director       wd:Q18148710 ;
+        schema:name           wd:Q13099455 ;
+        rdf:type              schema:Movie .
+
+wd:Q102244  rdf:type  schema:Movie .
+
+wd:Q13595531  rdf:type  schema:Person .
+
+wd:Q1344373  rdf:type  schema:Person .
+
+wd:Q172241  rdf:type  schema:Movie .
+
+wd:Q2296376  rdf:type  schema:Movie .
+
+<http://localhost:3333/TheMockingjay(part1)>
+        schema:isBasedOn      wd:Q40354 ;
+        schema:datePublished  "2015"^^xsd:gYear ;
+        schema:datePublished  "2014"^^xsd:gYear ;
+        schema:director       wd:Q561387 ;
+        schema:name           wd:Q10307713 ;
+        schema:name           wd:Q4142083 ;
+        rdf:type              schema:Movie .
+
+:Matilda  schema:isBasedOn    wd:Q1426188 ;
+        schema:datePublished  "1996"^^xsd:gYear ;
+        schema:director       wd:Q26806 ;
+        schema:name           wd:Q280400 ;
+        rdf:type              schema:Movie .
+
+wd:Q466792  rdf:type  schema:Movie .
+
+wd:Q632036  schema:author     viaf:21622465 ;
+        schema:datePublished  "2009"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+viaf:150638554  rdf:type  schema:Person .
+
+viaf:85399230  rdf:type  schema:Person .
+
+<http://localhost:3333/HarryPotterandthePhilosopher'sStone>
+        schema:isBasedOn      wd:Q43361 ;
+        schema:datePublished  "2001"^^xsd:gYear ;
+        schema:director       wd:Q75079 ;
+        schema:name           wd:Q102438 ;
+        rdf:type              schema:Movie .
+
+wd:Q4080576  schema:author    viaf:73227751 ;
+        schema:datePublished  "2009"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q118817  rdf:type  schema:Person .
+
+viaf:110768273  rdf:type  schema:Person .
+
+viaf:21622465  rdf:type  schema:Person .
+
+wd:Q160071  rdf:type  schema:Movie .
+
+:NewMoon  schema:isBasedOn    wd:Q191540 ;
+        schema:datePublished  "2009"^^xsd:gYear ;
+        schema:director       wd:Q238638 ;
+        schema:name           wd:Q116928 ;
+        rdf:type              schema:Movie .
+
+wd:Q147787  schema:author     viaf:96987389 ;
+        schema:datePublished  "1878"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q7729402  schema:author    viaf:73227751 ;
+        schema:datePublished  "2011"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q728360  rdf:type  schema:Person .
+
+:BeautifulCreatures  schema:isBasedOn  wd:Q632036 ;
+        schema:datePublished  "2013"^^xsd:gYear ;
+        schema:director       wd:Q269670 ;
+        schema:name           wd:Q738704 ;
+        rdf:type              schema:Movie .
+
+wd:Q40354  schema:author      viaf:150638554 ;
+        schema:datePublished  "2010"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q191540  schema:author     viaf:102313919 ;
+        schema:datePublished  "2006"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+viaf:73227751  rdf:type  schema:Person .
+
+wd:Q4592142  schema:author    viaf:85399230 ;
+        schema:datePublished  "1998"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q470937  schema:author     viaf:97113511 ;
+        schema:datePublished  "1977"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+:TheHungerGames  schema:isBasedOn  wd:Q11678 ;
+        schema:datePublished  "2012"^^xsd:gYear ;
+        schema:director       wd:Q598675 ;
+        schema:name           wd:Q212965 ;
+        rdf:type              schema:Movie .
+
+wd:Q18148710  rdf:type  schema:Person .
+
+wd:Q203560  rdf:type  schema:Movie .
+
+:TheDeadZone  schema:isBasedOn  wd:Q466790 ;
+        schema:datePublished  "1983"^^xsd:gYear ;
+        schema:director       wd:Q55422 ;
+        schema:name           wd:Q466792 ;
+        rdf:type              schema:Movie .
+
+wd:Q41156544  rdf:type  schema:Movie .
+
+wd:Q727810  rdf:type  schema:Person .
+
+wd:Q295445  rdf:type  schema:Person .
+
+wd:Q208424  rdf:type  schema:Movie .
+
+wd:Q940387  rdf:type  schema:Movie .
+
+wd:Q742226  schema:author     viaf:97113511 ;
+        schema:datePublished  "1983"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+:HarryPotterandtheGobletofFire
+        schema:isBasedOn      wd:Q46751 ;
+        schema:datePublished  "2005"^^xsd:gYear ;
+        schema:director       wd:Q312088 ;
+        schema:name           wd:Q102225 ;
+        rdf:type              schema:Movie .
+
+wd:Q116928  rdf:type  schema:Movie .
+
+wd:Q361336  rdf:type  schema:Person .
+
+:TheJoyLuckClub  schema:isBasedOn  wd:Q1857708 ;
+        schema:datePublished  "1993"^^xsd:gYear ;
+        schema:director       wd:Q728360 ;
+        schema:name           wd:Q2296376 ;
+        rdf:type              schema:Movie .
+
+wd:Q189378  schema:author     viaf:102313919 ;
+        schema:datePublished  "2005"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q258953  schema:author     viaf:66470410 ;
+        schema:datePublished  "1993"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+:DoctorSleep  schema:isBasedOn  wd:Q3657739 ;
+        schema:datePublished  "2019"^^xsd:gYear ;
+        schema:director       wd:Q19668417 ;
+        schema:name           wd:Q56881169 ;
+        rdf:type              schema:Movie .
+
+viaf:116796842  rdf:type  schema:Person .
+
+wd:Q598675  rdf:type  schema:Person .
+
+wd:Q10307713  rdf:type  schema:Movie .
+
+viaf:110527100  rdf:type  schema:Person .
+
+:HarryPotterandthePrisonerofAzkaban
+        schema:isBasedOn      wd:Q47598 ;
+        schema:datePublished  "2004"^^xsd:gYear ;
+        schema:director       wd:Q28028 ;
+        schema:name           wd:Q102448 ;
+        rdf:type              schema:Movie .
+
+<http://localhost:3333/TheMockingjay(part2)>
+        schema:isBasedOn      wd:Q40354 ;
+        schema:datePublished  "2015"^^xsd:gYear ;
+        schema:datePublished  "2014"^^xsd:gYear ;
+        schema:director       wd:Q561387 ;
+        schema:name           wd:Q10307713 ;
+        schema:name           wd:Q4142083 ;
+        rdf:type              schema:Movie .
+
+wd:Q161687  rdf:type  schema:Movie .
+
+wd:Q3106705  rdf:type  schema:Person .
+
+wd:Q611689  schema:author     viaf:29558386 ;
+        schema:datePublished  "2005"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q552775  rdf:type  schema:Movie .
+
+wd:Q26806  rdf:type  schema:Person .
+
+wd:Q102225  rdf:type  schema:Movie .
+
+:TheShawshankRedemption
+        schema:isBasedOn      wd:Q968314 ;
+        schema:datePublished  "1994"^^xsd:gYear ;
+        schema:director       wd:Q295445 ;
+        schema:name           wd:Q172241 ;
+        rdf:type              schema:Movie .
+
+wd:Q186341  rdf:type  schema:Movie .
+
+wd:Q102438  rdf:type  schema:Movie .
+
+wd:Q561387  rdf:type  schema:Person .
+
+wd:Q28464870  schema:author   viaf:54146461434027730101 ;
+        schema:datePublished  "2016"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+:1922   schema:isBasedOn      wd:Q3083972 ;
+        schema:datePublished  "2017"^^xsd:gYear ;
+        schema:director       wd:Q47004401 ;
+        schema:name           wd:Q41156544 ;
+        rdf:type              schema:Movie .
+
+wd:Q837140  schema:author     viaf:150638554 ;
+        schema:datePublished  "2009"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q55400  rdf:type  schema:Person .
+
+wd:Q11678  schema:author      viaf:150638554 ;
+        schema:datePublished  "2008"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q162672  rdf:type  schema:Movie .
+
+wd:Q46751  schema:author      viaf:116796842 ;
+        schema:datePublished  "2000"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+:PetSematary  schema:isBasedOn  wd:Q742226 ;
+        schema:datePublished  "1989"^^xsd:gYear ;
+        schema:director       wd:Q272678 ;
+        schema:name           wd:Q908213 ;
+        rdf:type              schema:Movie .
+
+wd:Q3657739  schema:author    viaf:97113511 ;
+        schema:datePublished  "2013"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q8877  rdf:type  schema:Person .
+
+:Carrie  schema:isBasedOn     wd:Q623394 ;
+        schema:datePublished  "1976"^^xsd:gYear ;
+        schema:director       wd:Q189526 ;
+        schema:name           wd:Q162672 ;
+        rdf:type              schema:Movie .
+
+wd:Q1045464  schema:author    viaf:17230986 ;
+        schema:datePublished  "1921"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q2001  rdf:type  schema:Person .
+
+:TheSecretLifeofBees  schema:isBasedOn  wd:Q3435184 ;
+        schema:datePublished  "2008"^^xsd:gYear ;
+        schema:director       wd:Q3106705 ;
+        schema:name           wd:Q940387 ;
+        rdf:type              schema:Movie .
+
+viaf:29558386  rdf:type  schema:Person .
+
+wd:Q13099455  rdf:type  schema:Movie .
+
+wd:Q53945  schema:author      viaf:102313919 ;
+        schema:datePublished  "2008"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q232009  rdf:type  schema:Movie .
+
+:TheWizardofOz  schema:isBasedOn  wd:Q130295 ;
+        schema:datePublished  "1939"^^xsd:gYear ;
+        schema:director       wd:Q62503 ;
+        schema:name           wd:Q193695 ;
+        rdf:type              schema:Movie .
+
+:Cujo   schema:isBasedOn      wd:Q835739 ;
+        schema:datePublished  "1983"^^xsd:gYear ;
+        schema:director       wd:Q727810 ;
+        schema:name           wd:Q829996 ;
+        rdf:type              schema:Movie .
+
+wd:Q208263  rdf:type  schema:Movie .
+
+wd:Q62503  rdf:type  schema:Person .
+
+wd:Q2344912  schema:author    viaf:97113511 ;
+        schema:datePublished  "1980"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q360737  rdf:type  schema:Person .
+
+wd:Q2070360  rdf:type  schema:Person .
+
+viaf:102067392  rdf:type  schema:Person .
+
+wd:Q3435184  schema:author    viaf:3327561 ;
+        schema:datePublished  "2001"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+viaf:102313919  rdf:type  schema:Person .
+
+wd:Q23755544  rdf:type  schema:Movie .
+
+:ThePerksofBeingaWallflower
+        schema:isBasedOn      wd:Q7723889 ;
+        schema:datePublished  "2012"^^xsd:gYear ;
+        schema:director       wd:Q2070360 ;
+        schema:name           wd:Q675468 ;
+        rdf:type              schema:Movie .
+
+wd:Q102235  rdf:type  schema:Movie .
+
+wd:Q23068002  rdf:type  schema:Movie .
+
+:TheDeathCure  schema:isBasedOn  wd:Q7729402 ;
+        schema:datePublished  "2018"^^xsd:gYear ;
+        schema:director       wd:Q18148710 ;
+        schema:name           wd:Q23068002 ;
+        rdf:type              schema:Movie .
+
+wd:Q75079  rdf:type  schema:Person .
+
+wd:Q102448  rdf:type  schema:Movie .
+
+wd:Q80817  schema:author      viaf:116796842 ;
+        schema:datePublished  "2003"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q40035  rdf:type  schema:Person .
+
+wd:Q312988  rdf:type  schema:Person .
+
+wd:Q9125658  rdf:type  schema:Movie .
+
+wd:Q968314  schema:author     viaf:97113511 ;
+        schema:datePublished  "1982"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+viaf:4926394  rdf:type  schema:Person .
+
+:TheScorchTrials  schema:isBasedOn  wd:Q7762604 ;
+        schema:datePublished  "2015"^^xsd:gYear ;
+        schema:director       wd:Q18148710 ;
+        schema:name           wd:Q18359358 ;
+        rdf:type              schema:Movie .
+
+wd:Q5581570  schema:author    viaf:103168327 ;
+        schema:datePublished  "2012"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+<http://localhost:3333/HarryPotterandtheDeathlyHallows(part1)>
+        schema:isBasedOn      wd:Q46758 ;
+        schema:datePublished  "2011"^^xsd:gYear ;
+        schema:datePublished  "2010"^^xsd:gYear ;
+        schema:director       wd:Q312988 ;
+        schema:name           wd:Q232009 ;
+        schema:name           wd:Q161678 ;
+        rdf:type              schema:Movie .
+
+wd:Q208460  schema:author     viaf:95155403 ;
+        schema:datePublished  "1949"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+:HarryPotterandtheChamberofSecrets
+        schema:isBasedOn      wd:Q47209 ;
+        schema:datePublished  "2002"^^xsd:gYear ;
+        schema:director       wd:Q75079 ;
+        schema:name           wd:Q102244 ;
+        rdf:type              schema:Movie .
+
+wd:Q19668417  rdf:type  schema:Person .
+
+:GoneGirl  schema:isBasedOn   wd:Q5581570 ;
+        schema:datePublished  "2014"^^xsd:gYear ;
+        schema:director       wd:Q184903 ;
+        schema:name           wd:Q14920425 ;
+        rdf:type              schema:Movie .
+
+wd:Q229598  rdf:type  schema:Person .
+
+wd:Q183081  rdf:type  schema:Movie .
+
+wd:Q132269  schema:author     viaf:102067392 ;
+        schema:datePublished  "1986"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q1125442  rdf:type  schema:Movie .
+
+:Twilight  schema:isBasedOn   wd:Q189378 ;
+        schema:datePublished  "2008"^^xsd:gYear ;
+        schema:director       wd:Q229598 ;
+        schema:name           wd:Q160071 ;
+        rdf:type              schema:Movie .
+
+wd:Q167726  rdf:type  schema:Movie .
+
+wd:Q1857708  schema:author    viaf:110768273 ;
+        schema:datePublished  "1989"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+:AScannerDarkly  schema:isBasedOn  wd:Q1198489 ;
+        schema:datePublished  "2006"^^xsd:gYear ;
+        schema:director       wd:Q40035 ;
+        schema:name           wd:Q300547 ;
+        rdf:type              schema:Movie .
+
+wd:Q756866  schema:author     viaf:89578936 ;
+        schema:datePublished  "1990"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q80204  rdf:type  schema:Movie .
+
+:AnnaKarenina  schema:isBasedOn  wd:Q147787 ;
+        schema:datePublished  "2012"^^xsd:gYear ;
+        schema:director       wd:Q118817 ;
+        schema:name           wd:Q80204 ;
+        rdf:type              schema:Movie .
+
+wd:Q1198489  schema:author    viaf:27063583 ;
+        schema:datePublished  "1977"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q43361  schema:author      viaf:116796842 ;
+        schema:datePublished  "1997"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q60506  rdf:type  schema:Movie .
+
+viaf:27063583  rdf:type  schema:Person .
+
+wd:Q29011  rdf:type  schema:Movie .
+
+wd:Q217010  rdf:type  schema:Movie .
+
+:RedDragon  schema:isBasedOn  wd:Q9144808 ;
+        schema:datePublished  "2002"^^xsd:gYear ;
+        schema:director       wd:Q319204 ;
+        schema:name           wd:Q9125658 ;
+        rdf:type              schema:Movie .
+
+viaf:17230986  rdf:type  schema:Person .
+
+wd:Q46887  schema:author      viaf:116796842 ;
+        schema:datePublished  "2005"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+:HannibalRising  schema:isBasedOn  wd:Q291087 ;
+        schema:datePublished  "2007"^^xsd:gYear ;
+        schema:director       wd:Q935794 ;
+        schema:name           wd:Q3114616 ;
+        rdf:type              schema:Movie .
+
+:TheAgeofInnocence  schema:isBasedOn  wd:Q1045464 ;
+        schema:datePublished  "1993"^^xsd:gYear ;
+        schema:director       wd:Q41148 ;
+        schema:name           wd:Q1125442 ;
+        rdf:type              schema:Movie .
+
+:TheGreenMile  schema:isBasedOn  wd:Q466288 ;
+        schema:datePublished  "1999"^^xsd:gYear ;
+        schema:director       wd:Q295445 ;
+        schema:name           wd:Q208263 ;
+        rdf:type              schema:Movie .
+
+viaf:108159131  rdf:type  schema:Person .
+
+wd:Q300547  rdf:type  schema:Movie .
+
+wd:Q4028807  schema:author    viaf:97113511 ;
+        schema:datePublished  "1999"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+viaf:3327561  rdf:type  schema:Person .
+
+wd:Q46758  schema:author      viaf:116796842 ;
+        schema:datePublished  "2007"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q829996  rdf:type  schema:Movie .
+
+:CatchingFire  schema:isBasedOn  wd:Q837140 ;
+        schema:datePublished  "2013"^^xsd:gYear ;
+        schema:director       wd:Q561387 ;
+        schema:name           wd:Q574583 ;
+        rdf:type              schema:Movie .
+
+wd:Q475125  schema:author     viaf:103859257 ;
+        schema:datePublished  "2002"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q312088  rdf:type  schema:Person .
+
+<http://localhost:3333/BreakingDawn(part1)>
+        schema:isBasedOn      wd:Q53945 ;
+        schema:datePublished  "2012"^^xsd:gYear ;
+        schema:datePublished  "2011"^^xsd:gYear ;
+        schema:director       wd:Q361336 ;
+        schema:name           wd:Q60487 ;
+        schema:name           wd:Q60506 ;
+        rdf:type              schema:Movie .
+
+wd:Q574583  rdf:type  schema:Movie .
+
+viaf:97113511  rdf:type  schema:Person .
+
+viaf:66470410  rdf:type  schema:Person .
+
+:HarryPotterandtheHalf-BloodPrince
+        schema:isBasedOn      wd:Q46887 ;
+        schema:datePublished  "2009"^^xsd:gYear ;
+        schema:director       wd:Q312988 ;
+        schema:name           wd:Q161687 ;
+        rdf:type              schema:Movie .
+
+viaf:89578936  rdf:type  schema:Person .
+
+wd:Q161678  rdf:type  schema:Movie .
+
+:Coraline  schema:isBasedOn   wd:Q475125 ;
+        schema:datePublished  "2009"^^xsd:gYear ;
+        schema:director       wd:Q514859 ;
+        schema:name           wd:Q632668 ;
+        rdf:type              schema:Movie .
+
+wd:Q18359358  rdf:type  schema:Movie .
+
+wd:Q13595311  rdf:type  schema:Person .
+
+<http://localhost:3333/HarryPotterandtheDeathlyHallows(part2)>
+        schema:isBasedOn      wd:Q46758 ;
+        schema:datePublished  "2011"^^xsd:gYear ;
+        schema:datePublished  "2010"^^xsd:gYear ;
+        schema:director       wd:Q312988 ;
+        schema:name           wd:Q232009 ;
+        schema:name           wd:Q161678 ;
+        rdf:type              schema:Movie .
+
+:1984   schema:isBasedOn      wd:Q208460 ;
+        schema:datePublished  "1984"^^xsd:gYear ;
+        schema:director       wd:Q470601 ;
+        schema:name           wd:Q208424 ;
+        rdf:type              schema:Movie .
+
+wd:Q466288  schema:author     viaf:97113511 ;
+        schema:datePublished  "1996"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q3114616  rdf:type  schema:Movie .
+
+wd:Q738704  rdf:type  schema:Movie .
+
+wd:Q675468  rdf:type  schema:Movie .
+
+:TheMist  schema:isBasedOn    wd:Q2344912 ;
+        schema:datePublished  "2007"^^xsd:gYear ;
+        schema:director       wd:Q295445 ;
+        schema:name           wd:Q695209 ;
+        rdf:type              schema:Movie .
+
+wd:Q212965  rdf:type  schema:Movie .
+
+wd:Q514859  rdf:type  schema:Person .
+
+:1408   schema:isBasedOn      wd:Q4028807 ;
+        schema:datePublished  "2007"^^xsd:gYear ;
+        schema:director       wd:Q450630 ;
+        schema:name           wd:Q203560 ;
+        rdf:type              schema:Movie .
+
+viaf:103168327  rdf:type  schema:Person .
+
+wd:Q60487  rdf:type  schema:Movie .
+
+wd:Q280400  rdf:type  schema:Movie .
+
+wd:Q28028  rdf:type  schema:Person .
+
+wd:Q47209  schema:author      viaf:116796842 ;
+        schema:datePublished  "1998"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q450630  rdf:type  schema:Person .
+
+wd:Q632668  rdf:type  schema:Movie .
+
+:JurassicPark  schema:isBasedOn  wd:Q756866 ;
+        schema:datePublished  "1993"^^xsd:gYear ;
+        schema:director       wd:Q8877 ;
+        schema:name           wd:Q167726 ;
+        rdf:type              schema:Movie .
+
+wd:Q212473  schema:author     viaf:102313919 ;
+        schema:datePublished  "2007"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+viaf:95155403  rdf:type  schema:Person .
+
+wd:Q47004401  rdf:type  schema:Person .
+
+wd:Q7762604  schema:author    viaf:73227751 ;
+        schema:datePublished  "2010"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q545573  rdf:type  schema:Person .
+
+wd:Q47598  schema:author      viaf:116796842 ;
+        schema:datePublished  "1999"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q1236347  rdf:type  schema:Movie .
+
+viaf:103859257  rdf:type  schema:Person .
+
+:NoCountryforOldMen  schema:isBasedOn  wd:Q611689 ;
+        schema:datePublished  "2007"^^xsd:gYear ;
+        schema:director       wd:Q13595311 ;
+        schema:director       wd:Q13595531 ;
+        schema:name           wd:Q183081 ;
+        rdf:type              schema:Movie .
+
+wd:Q371455  rdf:type  schema:Person .
+
+wd:Q466790  schema:author     viaf:97113511 ;
+        schema:datePublished  "1979"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+<http://localhost:3333/Howl'sMovingCastle>
+        schema:isBasedOn      wd:Q132269 ;
+        schema:datePublished  "2004"^^xsd:gYear ;
+        schema:director       wd:Q55400 ;
+        schema:name           wd:Q29011 ;
+        rdf:type              schema:Movie .
+
+wd:Q9144808  schema:author    viaf:110527100 ;
+        schema:datePublished  "1981"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q238638  rdf:type  schema:Person .
+
+wd:Q272678  rdf:type  schema:Person .
+
+wd:Q41148  rdf:type  schema:Person .
+
+:TheHost  schema:isBasedOn    wd:Q464220 ;
+        schema:datePublished  "2013"^^xsd:gYear ;
+        schema:director       wd:Q360737 ;
+        schema:name           wd:Q552775 ;
+        rdf:type              schema:Movie .
+
+<http://localhost:3333/BreakingDawn(part2)>
+        schema:isBasedOn      wd:Q53945 ;
+        schema:datePublished  "2012"^^xsd:gYear ;
+        schema:datePublished  "2011"^^xsd:gYear ;
+        schema:director       wd:Q361336 ;
+        schema:name           wd:Q60487 ;
+        schema:name           wd:Q60506 ;
+        rdf:type              schema:Movie .
+
+wd:Q835739  schema:author     viaf:97113511 ;
+        schema:datePublished  "1981"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q908213  rdf:type  schema:Movie .
+
+wd:Q1426188  schema:author    viaf:108159131 ;
+        schema:datePublished  "1988"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q7723889  schema:author    viaf:32302874 ;
+        schema:datePublished  "1999"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q3083972  schema:author    viaf:97113511 ;
+        schema:datePublished  "2010"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+:HarryPotterandtheOrderofthePhoenix
+        schema:isBasedOn      wd:Q80817 ;
+        schema:datePublished  "2007"^^xsd:gYear ;
+        schema:director       wd:Q312988 ;
+        schema:name           wd:Q102235 ;
+        rdf:type              schema:Movie .
+
+wd:Q935794  rdf:type  schema:Person .
+
+wd:Q464220  schema:author     viaf:102313919 ;
+        schema:datePublished  "2008"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q4142083  rdf:type  schema:Movie .
+
+viaf:32302874  rdf:type  schema:Person .
+
+wd:Q291087  schema:author     viaf:110527100 ;
+        schema:datePublished  "2006"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q193695  rdf:type  schema:Movie .
+
+viaf:54146461434027730101
+        rdf:type  schema:Person .
+
+wd:Q184903  rdf:type  schema:Person .
+
+wd:Q543563  rdf:type  schema:Person .
+
+wd:Q695209  rdf:type  schema:Movie .
+
+wd:Q55422  rdf:type  schema:Person .
+
+wd:Q846175  schema:author     viaf:97113511 ;
+        schema:datePublished  "1992"^^xsd:gYear ;
+        rdf:type              schema:Book .
+
+wd:Q130295  schema:author     viaf:4926394 ;
+        schema:datePublished  "1900"^^xsd:gYear ;
+        rdf:type              schema:Book .
