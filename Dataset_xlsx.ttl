@@ -86,7 +86,7 @@ wd:Q172241  rdf:type  schema:Movie .
 
 wd:Q2296376  rdf:type  schema:Movie .
 
-<http://localhost:3333/TheMockingjay(part1)>
+:TheMockingjaypart1
         schema:isBasedOn      wd:Q40354 ;
         schema:datePublished  "2015"^^xsd:gYear ;
         schema:datePublished  "2014"^^xsd:gYear ;
@@ -111,7 +111,7 @@ viaf:150638554  rdf:type  schema:Person .
 
 viaf:85399230  rdf:type  schema:Person .
 
-<http://localhost:3333/HarryPotterandthePhilosopher'sStone>
+:HarryPotterandthePhilosophersStone
         schema:isBasedOn      wd:Q43361 ;
         schema:datePublished  "2001"^^xsd:gYear ;
         schema:director       wd:Q75079 ;
@@ -246,7 +246,7 @@ viaf:110527100  rdf:type  schema:Person .
         schema:name           wd:Q102448 ;
         rdf:type              schema:Movie .
 
-<http://localhost:3333/TheMockingjay(part2)>
+:TheMockingjaypart2
         schema:isBasedOn      wd:Q40354 ;
         schema:datePublished  "2015"^^xsd:gYear ;
         schema:datePublished  "2014"^^xsd:gYear ;
@@ -429,7 +429,7 @@ wd:Q5581570  schema:author    viaf:103168327 ;
         schema:datePublished  "2012"^^xsd:gYear ;
         rdf:type              schema:Book .
 
-<http://localhost:3333/HarryPotterandtheDeathlyHallows(part1)>
+:HarryPotterandtheDeathlyHallowspart1
         schema:isBasedOn      wd:Q46758 ;
         schema:datePublished  "2011"^^xsd:gYear ;
         schema:datePublished  "2010"^^xsd:gYear ;
@@ -571,7 +571,7 @@ wd:Q475125  schema:author     viaf:103859257 ;
 
 wd:Q312088  rdf:type  schema:Person .
 
-<http://localhost:3333/BreakingDawn(part1)>
+:BreakingDawnpart1
         schema:isBasedOn      wd:Q53945 ;
         schema:datePublished  "2012"^^xsd:gYear ;
         schema:datePublished  "2011"^^xsd:gYear ;
@@ -607,7 +607,7 @@ wd:Q18359358  rdf:type  schema:Movie .
 
 wd:Q13595311  rdf:type  schema:Person .
 
-<http://localhost:3333/HarryPotterandtheDeathlyHallows(part2)>
+:HarryPotterandtheDeathlyHallowspart2
         schema:isBasedOn      wd:Q46758 ;
         schema:datePublished  "2011"^^xsd:gYear ;
         schema:datePublished  "2010"^^xsd:gYear ;
@@ -705,7 +705,7 @@ wd:Q466790  schema:author     viaf:97113511 ;
         schema:datePublished  "1979"^^xsd:gYear ;
         rdf:type              schema:Book .
 
-<http://localhost:3333/Howl'sMovingCastle>
+:HowlsMovingCastle
         schema:isBasedOn      wd:Q132269 ;
         schema:datePublished  "2004"^^xsd:gYear ;
         schema:director       wd:Q55400 ;
@@ -728,7 +728,7 @@ wd:Q41148  rdf:type  schema:Person .
         schema:name           wd:Q552775 ;
         rdf:type              schema:Movie .
 
-<http://localhost:3333/BreakingDawn(part2)>
+:BreakingDawnpart2
         schema:isBasedOn      wd:Q53945 ;
         schema:datePublished  "2012"^^xsd:gYear ;
         schema:datePublished  "2011"^^xsd:gYear ;
