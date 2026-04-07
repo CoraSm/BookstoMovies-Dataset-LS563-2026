@@ -32,8 +32,11 @@ WikiData and VIAF were used to link book titles, authors, movie titles, and dire
         schema:name           "The Giver" ;
         rdf:type              schema:Movie .
 
-wd:Q623394  schema:author     viaf:97113511 ;
-        schema:datePublished  "1974"^^xsd:gYear ;
-        rdf:type              schema:Book .
+:Matilda  schema:isBasedOn    wd:Q1426188 ;
+        schema:datePublished  "1996"^^xsd:gYear ;
+        schema:director       wd:Q26806 ;
+        schema:name           wd:Q280400 ;
+        rdf:type              schema:Movie .
+
 
         
